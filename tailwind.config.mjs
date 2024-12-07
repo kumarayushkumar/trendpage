@@ -6,7 +6,7 @@ export default {
   theme: {
     fontFamily: {
       sans: ['Helvetica', ...defaultTheme.fontFamily.sans],
-      heading: ['Georgia', ...defaultTheme.fontFamily.sans],
+      heading: ['Georgia', ...defaultTheme.fontFamily.serif]
     },
     extend: {
       colors: {

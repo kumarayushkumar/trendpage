@@ -1,26 +1,25 @@
 ---
 type Props = {
   type: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
-  title: string
   className?: string
 }
 
-const { type, title, className } = Astro.props
+const { type, className } = Astro.props
 const HeadingTag = type
 
-const defaultStyles = 'font-heading md:font-semibold text-primary'
+const defaultStyles = 'font-heading'
 
 const specificStyles = {
-  h1: 'text-3xl',
-  h2: 'text-2xl',
-  h3: 'text-xl',
-  h4: 'text-lg',
-  h5: 'text-base',
-  h6: 'text-sm'
+  h1: 'text-4xl md:font-semibold',
+  h2: 'text-3xl',
+  h3: 'text-2xl',
+  h4: 'text-xl',
+  h5: 'text-lg',
+  h6: 'text-base'
 }
 ---
 
 <HeadingTag
   class={`${specificStyles[type]} ${defaultStyles} ${className || ''}`}
-  >{title}</HeadingTag
+  ><slot /></HeadingTag
 >

@@ -1,0 +1,14 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import Blog from './Blog.astro'
+
+type Props = {
+  blogs: CollectionEntry<'blogs'>[]
+}
+
+const { blogs } = Astro.props
+---
+
+<div class="grid grid-cols-1 gap-8 md:gap-10">
+  {blogs.map(blog => <Blog slug={blog.slug} blog={blog} />)}
+</div>
