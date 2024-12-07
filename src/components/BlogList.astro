@@ -9,6 +9,6 @@ type Props = {
 const { blogs } = Astro.props
 ---
 
-<div class="grid grid-cols-1 gap-8 md:gap-10">
+<div class="grid grid-cols-1 gap-6 md:gap-8">
   {blogs.map(blog => <Blog slug={blog.slug} blog={blog} />)}
 </div>

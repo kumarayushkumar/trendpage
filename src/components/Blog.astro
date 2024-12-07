@@ -10,15 +10,19 @@ type Props = {
 const { blog, slug } = Astro.props
 ---
 
-<article class="hover:shadow-lg transition-all duration-[400ms] hover:scale-[1.005] p-4" id={slug}>
-  <a href="" class="flex flex-col">
-    <img
-      src={blog.data.image}
-      alt={blog.data.title}
-      class="w-full h-64 max-h-64 object-cover"
-    />
+<article
+  class="hover:shadow-lg transition-all duration-[400ms] hover:scale-[1.005] p-4"
+  id={slug}>
+  <a href={`/trending/${blog.slug}`} class="flex flex-col">
+    <figure>
+      <img
+        src={blog.data.image}
+        alt={blog.data.title}
+        class="w-full h-64 object-cover"
+      />
+    </figure>
     <div class="mt-4 mx-1">
-      <Heading type="h3" className='font-heading'>{blog.data.title}</Heading>
+      <Heading type="h3" className="font-heading">{blog.data.title}</Heading>
       <p class="line-clamp-2 text-base md:text-lg leading-5 md:leading-6 mt-1">
         {blog.body}
       </p>

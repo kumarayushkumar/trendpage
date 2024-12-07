@@ -1,0 +1,47 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import { getCollection } from 'astro:content'
+import Layout from '../../layouts/Layout.astro'
+import Heading from '../../components/Heading.astro'
+
+export const getStaticPaths = async () => {
+  const blogs = await getCollection('blogs')
+
+  const paths = blogs.map(blog => ({
+    params: { slug: blog.slug },
+    props: {
+      blog
+    }
+  }))
+
+  return paths
+}
+
+type Props = {
+  blog: CollectionEntry<'blogs'>
+}
+
+const { blog } = Astro.props
+const { Content } = await blog.render()
+---
+
+<Layout
+  title={blog.data.title}
+  description={blog.data.description}
+  keywords={blog.data.keywords}>
+  <article class="mx-auto max-w-[520px] py-7 px-4 sm:px-6">
+    <Heading type="h2" className="font-semibold mb-4 md:mb-5"
+      >{blog.data.title}</Heading
+    >
+    <figure>
+      <img
+        src={blog.data.image}
+        alt={blog.data.title}
+        class="w-full h-64 object-cover"
+      />
+    </figure>
+    <div class="prose overflow-visible relative mt-4">
+      <Content />
+    </div>
+  </article>
+</Layout>
