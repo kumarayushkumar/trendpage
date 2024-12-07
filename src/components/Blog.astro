@@ -22,7 +22,7 @@ const { blog, slug } = Astro.props
       />
     </figure>
     <div class="mt-4 mx-1">
-      <Heading type="h3" className="font-heading">{blog.data.title}</Heading>
+      <Heading type="h3">{blog.data.title}</Heading>
       <p class="line-clamp-2 text-base md:text-lg leading-5 md:leading-6 mt-1">
         {blog.body}
       </p>
