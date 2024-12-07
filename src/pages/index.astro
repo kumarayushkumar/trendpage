@@ -1,7 +1,30 @@
 ---
+
 import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout title="Home">
-  <h1 class="text-4xl text-cyan-300">hi</h1>
+
 </Layout>
+
+<style is:global>
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica.woff') format('woff');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Georgia';
+    src: url('/fonts/Georgia.ttf') format('ttf');
+    font-display: swap;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: #212b2a;
+  }
+</style>

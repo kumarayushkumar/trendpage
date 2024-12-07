@@ -1,4 +1,7 @@
 ---
+import Footer from '../components/Footer.astro'
+import Header from '../components/Header.astro'
+
 interface Props {
   title: string
 }
@@ -50,7 +53,9 @@ const { title } = Astro.props
     <link rel="sitemap" href="sitemap.xml" />
     <link rel="canonical" href="https://www.tajanewz.com/" />
   </head>
-  <body>
+  <body class="min-h-screen bg-primary">
+    <Header />
     <slot />
+    <Footer />
   </body>
 </html>
