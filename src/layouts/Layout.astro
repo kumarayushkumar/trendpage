@@ -1,6 +1,7 @@
 ---
 import Footer from '../components/Footer.astro'
 import Header from '../components/Header.astro'
+import Analytics from '@vercel/analytics/astro'
 
 interface Props {
   title: string
@@ -59,5 +60,6 @@ const { title, keywords, description } = Astro.props
     <Header />
     <slot />
     <Footer />
+    <Analytics />
   </body>
 </html>
