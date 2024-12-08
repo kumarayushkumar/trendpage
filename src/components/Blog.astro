@@ -20,6 +20,7 @@ const { blog, slug } = Astro.props
         src={blog.data.image}
         alt={blog.data.title}
         class="w-full h-64 object-cover"
+        loading="eager"
       />
     </figure>
     <div class="mt-4 mx-1">

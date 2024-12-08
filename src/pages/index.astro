@@ -15,7 +15,7 @@ const blogs = await getCollection('blogs')
     <Heading type="h2" className="font-semibold mb-4 md:mb-5 px-4"
       >Trending News</Heading
     >
-    <BlogList blogs={blogs} />
+    <BlogList blogs={blogs} client:load />
   </section>
 </Layout>
 
