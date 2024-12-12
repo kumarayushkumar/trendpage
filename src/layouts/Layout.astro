@@ -18,42 +18,39 @@ const { title, keywords, description } = Astro.props
     <title>{title}</title>
 
     <meta charset="UTF-8" />
-    <meta name="keywords" content={keywords} />
     <meta name="description" content={description} />
-
     <meta name="author" content="Trendpage" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=5"
     />
     <meta name="robots" content="index, follow" />
-
-    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#000000" />
 
     <!-- Open Graph (OG) Meta Tags -->
     <meta name="og:site_name" content="Trendpage" />
     <meta name="og:title" content={title} />
     <meta name="og:type" content="website" />
+    <meta property="og:image:alt" content="Logo of Trendpage" />
     <meta name="og:image" content="https://www.trendpage.com/logo.png" />
     <meta name="og:url" content="https://www.trendpage.com" />
     <meta name="og:description" content={description} />
 
     <!-- Twitter Card Meta Tag -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@trendpageofficial" />
-    <meta name="twitter:creator" content="@trendpageofficial" />
 
     <!-- Apple Meta Tags -->
     <meta name="apple-mobile-web-app-title" content="Trendpage" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="https://www.trendpage.com/logo.png"
-    />
     <link rel="icon" type="image/png" href="/logo.png" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="sitemap" href="sitemap.xml" />
     <link rel="canonical" href="https://www.trendpage.com/" />
   </head>
