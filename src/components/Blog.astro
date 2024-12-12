@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry } from 'astro:content'
 import Heading from './Heading.astro'
-import { Image } from 'astro:assets'
+import { Image, Picture } from 'astro:assets'
 
 type Props = {
   blog: CollectionEntry<'blogs'>
@@ -16,7 +16,7 @@ const { blog, slug } = Astro.props
   id={slug}>
   <a href={`/trending/${blog.slug}`} class="flex flex-col">
     <figure>
-      <Image
+      <Picture
         src={blog.data.image}
         alt={blog.data.title}
         class="w-full h-64 object-cover"
