@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry } from 'astro:content'
 import Heading from './Heading.astro'
-import { Image, Picture } from 'astro:assets'
+import { Picture } from 'astro:assets'
 
 type Props = {
   blog: CollectionEntry<'blogs'>
@@ -12,19 +12,19 @@ const { blog, slug } = Astro.props
 ---
 
 <article
-  class="hover:shadow-lg shadow-md transition-all duration-[400ms] hover:scale-[1.005] p-4 md:p-5"
+  class="hover:shadow-lg hover:shadow-accent/10 shadow-md transition-all duration-[400ms] hover:scale-[1.001] p-4 md:p-5 rounded-md"
   id={slug}>
   <a href={`/trending/${blog.slug}`} class="flex flex-col">
     <figure>
       <Picture
         src={blog.data.image}
         alt={blog.data.title}
-        class="w-full h-56 object-cover"
+        class="w-full h-56 object-cover rounded-md"
         loading="eager"
       />
     </figure>
     <div class="mt-4 mx-1">
-      <Heading type="h3" className="font-medium">{blog.data.title}</Heading>
+      <Heading type="h3" className="font-semibold">{blog.data.title}</Heading>
       <p class="line-clamp-2 text-base leading-5 md:leading-6 mt-2">
         {blog.body}
       </p>
