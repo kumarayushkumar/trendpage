@@ -76,3 +76,5 @@ Books are an invaluable resource for understanding chess concepts and improving 
 Chess is more than just a game—it’s a mental exercise, an art form, and a source of endless fascination. Whether you’re a beginner learning the ropes or an experienced player delving into deep strategies, chess offers something for everyone. Its recent resurgence is a testament to its timeless appeal and ability to unite people across generations and cultures.
 
 So, what are you waiting for? Grab a chessboard, download an app, or pick up a book. Dive into the world of chess and discover the joys of this captivating game.
+
+---
