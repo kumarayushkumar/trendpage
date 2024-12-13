@@ -3,7 +3,7 @@ import type { CollectionEntry } from 'astro:content'
 import { getCollection } from 'astro:content'
 import Layout from '../../layouts/Layout.astro'
 import Heading from '../../components/Heading.astro'
-import { Image, Picture} from 'astro:assets'
+import { Image, Picture } from 'astro:assets'
 
 export const getStaticPaths = async () => {
   const blogs = await getCollection('blogs')
@@ -26,10 +26,7 @@ const { blog } = Astro.props
 const { Content } = await blog.render()
 ---
 
-<Layout
-  title={blog.data.title}
-  description={blog.data.description}
-  keywords={blog.data.keywords}>
+<Layout title={blog.data.title} description={blog.data.description}>
   <article class="mx-auto max-w-[520px] py-7 px-4 sm:px-6">
     <Heading type="h2" className="font-semibold mb-4 md:mb-5"
       >{blog.data.title}</Heading
