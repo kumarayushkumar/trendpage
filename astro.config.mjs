@@ -11,7 +11,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     sitemap({
-      changefreq: 'daily',
+      changefreq: 'daily'
     })
   ]
 })

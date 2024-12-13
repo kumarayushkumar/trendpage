@@ -2,6 +2,20 @@
 import Layout from '../layouts/Layout.astro'
 ---
 
-<Layout title="404 - Page Not Found" description='Page not Found'>
-  <h1>404 - Page Not Found</h1>
+<Layout title="404 - Page Not Found" description="Page not Found">
+  <section class="pt-36 md:pt-44 px-4 text-center">
+    <h1 class="text-4xl font-heading font-semibold text-accent">
+      kahaan chale?
+    </h1>
+    <p class="md:text-lg text-secondary font-medium pt-6 leading-6">
+      Galat jagah aagaye aap, Ye page exist nhi karta.
+    </p>
+    <div class="pt-8 md:pt-10">
+      <a
+        href="/"
+        class="transition duration-[400ms] text-lg font-heading bg-accent/90 text-primary py-3 px-5"
+        >Let's go Home</a
+      >
+    </div>
+  </section>
 </Layout>
