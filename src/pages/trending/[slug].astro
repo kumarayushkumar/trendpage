@@ -27,8 +27,8 @@ const { Content } = await blog.render()
 ---
 
 <Layout title={blog.data.title} description={blog.data.description}>
-  <article class="mx-auto max-w-[520px] py-7 px-4 sm:px-6">
-    <Heading type="h2" className="font-medium mb-4 md:mb-5"
+  <article class="mx-auto max-w-[520px] py-7 px-6 sm:px-8 bg-zinc-100">
+    <Heading type="h1" className="font-medium md:font-semibold mb-4 md:mb-5"
       >{blog.data.title}</Heading
     >
     <figure>
@@ -38,7 +38,7 @@ const { Content } = await blog.render()
         class="w-full h-64 object-cover"
       />
     </figure>
-    <div class="prose overflow-visible relative mt-4 leading-6">
+    <div class="prose overflow-visible relative mt-6 md:mt-8 leading-6">
       <Content />
     </div>
   </article>
