@@ -4,7 +4,6 @@ import { getCollection } from 'astro:content'
 import Layout from '../../layouts/Layout.astro'
 import Heading from '../../components/Heading.astro'
 import { Picture } from 'astro:assets'
-import styles from "./page.module.css"
 
 export const getStaticPaths = async () => {
   const blogs = await getCollection('blogs')
@@ -40,8 +39,14 @@ const { Content } = await blog.render()
         loading={`eager`}
       />
     </figure>
-    <div class=`prose overflow-visible relative mt-6 md:mt-8 leading-6 ${styles.prose}`>
+    <div class="prose overflow-visible relative mt-6 md:mt-8 leading-6">
       <Content />
     </div>
   </article>
 </Layout>
+
+<style is:inline>
+  .prose > p {
+    text-align: justify;
+  }
+</style>
