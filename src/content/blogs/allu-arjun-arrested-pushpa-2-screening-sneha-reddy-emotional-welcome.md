@@ -1,6 +1,6 @@
 ---
 title: "Allu Arjun Arrested in Pushpa 2 Screening Incident: Sneha Reddy's Emotional Welcome After His Release"
-date: '14-12-2024'
+date: '2024-12-14'
 image: ./images/allu-arjun.webp
 description: "Delve into the details of the tragic incident at Sandhya Theatre during the Pushpa 2 screening that led to Allu Arjun's arrest. Explore the events, emotional family moments, police clarifications, and the aftermath, including the impact on fans and the film industry."
 ---

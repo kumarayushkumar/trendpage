@@ -37,6 +37,7 @@ const { Content } = await blog.render()
         src={blog.data.image}
         alt=`${blog.data.title} image`
         class="w-full h-64 object-cover rounded-md"
+        loading={`eager`}
       />
     </figure>
     <div class=`prose overflow-visible relative mt-6 md:mt-8 leading-6 ${styles.prose}`>

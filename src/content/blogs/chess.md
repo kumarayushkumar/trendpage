@@ -1,6 +1,6 @@
 ---
 title: 'Chess'
-date: '13-12-2024'
+date: '2024-12-13'
 image: ./images/chess.webp
 description: 'Explore the world of chess, from its infinite combinations to beginner-friendly resources. Learn how to start, find the best books, and master the game of kings!'
 ---

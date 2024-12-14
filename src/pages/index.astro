@@ -6,6 +6,13 @@ import Heading from '../components/Heading.astro'
 
 const blogs = await getCollection('blogs')
 
+// Sort blogs in descending order of date
+blogs.sort((a, b) => {
+  const dateA = new Date(a.data.date)
+  const dateB = new Date(b.data.date)
+  return dateB.getTime() - dateA.getTime()
+})
+
 const title = "TrendPage: Today's Trending News"
 const description =
   'Read the latest trending topics and useful blogs. Stay informed with easy-to-read content on Trendpage.'
