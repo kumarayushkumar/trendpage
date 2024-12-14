@@ -3,7 +3,8 @@ import type { CollectionEntry } from 'astro:content'
 import { getCollection } from 'astro:content'
 import Layout from '../../layouts/Layout.astro'
 import Heading from '../../components/Heading.astro'
-import { Image, Picture } from 'astro:assets'
+import { Picture } from 'astro:assets'
+import styles from "./page.module.css"
 
 export const getStaticPaths = async () => {
   const blogs = await getCollection('blogs')
@@ -38,7 +39,7 @@ const { Content } = await blog.render()
         class="w-full h-64 object-cover rounded-md"
       />
     </figure>
-    <div class="prose overflow-visible relative mt-6 md:mt-8 leading-6">
+    <div class=`prose overflow-visible relative mt-6 md:mt-8 leading-6 ${styles.prose}`>
       <Content />
     </div>
   </article>
