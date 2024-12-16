@@ -3,6 +3,7 @@ title: 'Chess'
 date: '2024-12-13'
 image: ./images/chess.webp
 description: 'Explore the world of chess, from its infinite combinations to beginner-friendly resources. Learn how to start, find the best books, and master the game of kings!'
+readTime: 5
 ---
 
 Chess, the ancient game of strategy and intellect, is experiencing a resurgence in popularity. Whether it’s due to viral moments on streaming platforms, gripping chess championships, or online platforms like Chess.com making the game more accessible, in this blog, we delve into the fascinating world of chess, exploring the mind-boggling number of possible combinations, how to start learning the game, and some essential book recommendations for beginners and enthusiasts alike.

@@ -3,6 +3,7 @@ title: "Ustad Zakir Hussain: The Tabla Maestro's Journey and Current Health Upda
 date: '2024-12-16'
 image: ./images/ustad-zakir-hussain.jpeg
 description: "Ustad Zakir Hussain, the legendary tabla virtuoso and global ambassador of Indian classical music, has been the center of attention due to recent health concerns. As of now, the maestro is alive but remains in critical condition in a San Francisco hospital."
+readTime: 4
 ---
 
 Ustad Zakir Hussain, the legendary tabla virtuoso and global ambassador of Indian classical music, has been the center of attention due to recent health concerns. On Sunday night, rumors of his passing spread rapidly across social media, prompting an outpouring of tributes. However, these claims were debunked by his family and representatives. As of now, the maestro is alive but remains in critical condition in a San Francisco hospital.

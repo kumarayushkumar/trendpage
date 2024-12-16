@@ -3,6 +3,7 @@ title: "Allu Arjun Arrested in Pushpa 2 Screening Incident: Sneha Reddy's Emotio
 date: '2024-12-14'
 image: ./images/allu-arjun.webp
 description: "Delve into the details of the tragic incident at Sandhya Theatre during the Pushpa 2 screening that led to Allu Arjun's arrest. Explore the events, emotional family moments, police clarifications, and the aftermath, including the impact on fans and the film industry."
+readTime: 6
 ---
 
 Telugu superstar Allu Arjun, known for his dynamic performances, recently found himself in the midst of a legal and emotional turmoil. The incident at Sandhya Theatre during the premiere of his blockbuster _Pushpa 2: The Rule_ led to a tragic loss of life, his arrest, and an emotional reunion with his family.
@@ -27,7 +28,7 @@ On Saturday morning, Allu Arjun was released from jail. His wife, Sneha Reddy, a
 
 ## Allu Arjun’s Statement Post-Release
 
-Addressing reporters outside the jail, Allu Arjun said:  
+Addressing reporters outside the jail, Allu Arjun said:
 _"I am a law-abiding citizen and will cooperate with the investigation. I express my deepest condolences to the bereaved family. It was an unfortunate incident."_
 
 ## Legal and Police Clarifications

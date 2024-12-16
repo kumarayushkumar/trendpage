@@ -30,6 +30,10 @@ const { blog, slug } = Astro.props
         {blog.body}
       </p>
     </div>
-    <BlogDate date={blog.data.date} />
+    <div class="flex items-center mx-1 mt-2 text-gray-500 text-sm">
+      <BlogDate date={blog.data.date} />
+      <span class="mx-2 text-gray-400">|</span>
+      <p class="">{blog.data.readTime} min read</p>
+    </div>
   </a>
 </article>
