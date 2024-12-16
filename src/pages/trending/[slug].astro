@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content'
 import Layout from '../../layouts/Layout.astro'
 import Heading from '../../components/Heading.astro'
 import { Picture } from 'astro:assets'
+import BlogDate from '../../components/BlogDate.astro'
 
 export const getStaticPaths = async () => {
   const blogs = await getCollection('blogs')
@@ -28,9 +29,14 @@ const { Content } = await blog.render()
 
 <Layout title={blog.data.title} description={blog.data.description}>
   <article class="mx-auto max-w-[520px] py-7 px-6 sm:px-8">
-    <Heading type="h1" className="font-medium md:font-semibold mb-4 md:mb-5"
+    <Heading type="h1" className="font-medium md:font-semibold mb-2"
       >{blog.data.title}</Heading
     >
+    <div class="flex items-center mb-4 text-gray-500 text-sm">
+      <BlogDate date={blog.data.date} />
+      <span class="mx-2 text-gray-400">|</span>
+      <p class="">{blog.data.readTime} min read</p>
+    </div>
     <figure>
       <Picture
         src={blog.data.image}
