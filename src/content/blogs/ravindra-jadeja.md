@@ -6,7 +6,7 @@ description: 'Read the latest updates on the Australia vs India match at Gabba, 
 readTime: 4
 ---
 
-The highly anticipated clash between the **Australian Men’s Cricket Team** and the **India National Cricket Team** has been making waves globally. With Ravindra Jadeja trending across social media platforms, cricket enthusiasts are eagerly following every moment of the **IND vs AUS** battle. The ongoing match at the iconic Gabba in Brisbane has reignited memories of intense rivalries and historic victories.
+The highly anticipated clash between the Australian Men’s Cricket Team and the India National Cricket Team has been making waves globally. With Ravindra Jadeja trending across social media platforms, cricket enthusiasts are eagerly following every moment of the **IND vs AUS** battle. The ongoing match at the iconic Gabba in Brisbane has reignited memories of intense rivalries and historic victories.
 
 ### **The Current Scenario at the Gabba**
 
