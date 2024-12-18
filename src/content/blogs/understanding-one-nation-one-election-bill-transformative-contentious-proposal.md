@@ -11,7 +11,7 @@ The introduction of the 'One Nation, One Election' Bill in the Lok Sabha has spa
 
 ### **What is the 'One Nation, One Election' Bill?**
 
-The bill, formally known as the Constitution (129th Amendment) Bill, was introduced in the Lok Sabha during the Winter Session. It proposes amendments to align Lok Sabha elections with state assembly elections, potentially streamlining the electoral process. Another accompanying legislation, the Union Territories Amendment Bill, seeks to synchronize elections in Union Territories like Delhi, Puducherry, and Jammu and Kashmir with national polls.
+The 'One Nation, One Election' bill, formally known as the Constitution (129th Amendment) Bill, was introduced in the Lok Sabha during the Winter Session. It proposes amendments to align Lok Sabha elections with state assembly elections, potentially streamlining the electoral process. Another accompanying legislation, the Union Territories Amendment Bill, seeks to synchronize elections in Union Territories like Delhi, Puducherry, and Jammu and Kashmir with national polls.
 
 
 ### **Key Developments in Parliament**
