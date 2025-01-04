@@ -6,7 +6,7 @@ description: "Learn about the Human Metapneumovirus (HMPV) outbreak in China, it
 readTime: 5
 ---
 
-China has declared a state of emergency due to an outbreak of **Human Metapneumovirus (HMPV)**, a virus that has caused growing concern worldwide. This new virus has led to widespread illness, sparking fear among citizens and governments alike. Here's what you need to know.
+China has declared a state of emergency due to an outbreak of Human Metapneumovirus (HMPV), a virus that has caused growing concern worldwide. This new virus has led to widespread illness, sparking fear among citizens and governments alike. Here's what you need to know.
 
 ## **What is Human Metapneumovirus (HMPV)?**
 HMPV is a respiratory virus that affects the lungs and airways. It is similar to other common viruses like the flu or RSV (Respiratory Syncytial Virus) but can be more severe, especially in vulnerable groups such as children, the elderly, and people with weak immune systems.

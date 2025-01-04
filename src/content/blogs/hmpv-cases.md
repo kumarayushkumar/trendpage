@@ -6,7 +6,7 @@ description: 'Explore the rising HMPV virus cases in China, its symptoms, spread
 readTime: 5
 ---
 
-China is witnessing a sharp increase in **HMPV virus cases**, sparking fears of a potential global health crisis. The **Human Metapneumovirus (HMPV)** is being called the "new virus in China" due to its sudden surge, and authorities are scrambling to contain the outbreak.
+China is witnessing a sharp increase in HMPV virus cases, sparking fears of a potential global health crisis. The **Human Metapneumovirus (HMPV)** is being called the "new virus in China" due to its sudden surge, and authorities are scrambling to contain the outbreak.
 
 ## **What is the HMPV Virus?**
 The **Human Metapneumovirus (HMPV)** is a respiratory virus that primarily affects the lungs and airways. While it is not as well-known as **COVID**, it can cause severe illness, particularly in children, the elderly, and those with weakened immune systems.
