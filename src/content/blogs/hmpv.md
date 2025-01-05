@@ -1,7 +1,7 @@
 ---
 title: 'China Declares State of Emergency Over Human Metapneumovirus (HMPV): What You Need to Know'
 date: '2025-01-03'
-image: ./images/hmpv.png
+image: ./images/hmpv.jpg
 description: 'Learn about the Human Metapneumovirus (HMPV) outbreak in China, its symptoms, impact, and precautions. Understand the situation as China declares a state of emergency.'
 readTime: 5
 ---

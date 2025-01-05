@@ -1,7 +1,7 @@
 ---
 title: 'IND vs AUS: Ravindra Jadeja Shines as India Battles Australia in Brisbane Showdown'
 date: '2024-12-17'
-image: ./images/ravindra-jadeja.webp
+image: ./images/ravindra-jadeja.jpg
 description: 'Read the latest updates on the Australia vs India match at Gabba, including live scorecards, weather updates, Ravindra Jadeja performance, and key highlights. Stay tuned for IND vs AUS insights!'
 readTime: 4
 ---

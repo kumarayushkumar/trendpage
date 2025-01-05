@@ -1,7 +1,7 @@
 ---
 title: 'HMPV Virus Cases Surge in China: Everything You Need to Know About the New Outbreak'
 date: '2025-01-04'
-image: ./images/hmpv-cases.webp
+image: ./images/hmpv-cases.jpg
 description: 'Explore the rising HMPV virus cases in China, its symptoms, spread, and potential impact in India. Stay updated on the virus outbreak news and how to stay safe.'
 readTime: 5
 ---

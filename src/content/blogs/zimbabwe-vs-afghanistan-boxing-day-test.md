@@ -1,7 +1,7 @@
 ---
 title: 'Zimbabwe vs Afghanistan: Historic Boxing Day Test and Key Players to Watch'
 date: '2024-12-26'
-image: ./images/zimbabwe-vs-afghanistan-boxing-day-test.webp
+image: ./images/zimbabwe-vs-afghanistan-boxing-day-test.jpg
 description: "Zimbabwe Cricket (ZC) is marking a historic milestone by hosting its first Boxing Day Test match in 28 years. The two-match series against Afghanistan begins at Queens Sports Club, Bulawayo, on December 26, 2024. This momentous occasion reflects ZC's commitment to revitalizing the sport in the nation and creating unforgettable experiences for cricket enthusiasts."
 readTime: 4
 ---
