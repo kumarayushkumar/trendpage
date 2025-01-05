@@ -1,7 +1,7 @@
 ---
 title: 'Celebrate New Year’s Eve 2024 with Heartfelt Wishes and Quotes'
 date: '2024-12-31'
-image: ./images/new-year.webp
+image: ./images/new-year.jpg
 description: 'Celebrate New Year’s Eve 2024 with heartfelt wishes, inspiring quotes, and fun traditions. Welcome 2025 with joy and share warm greetings, images, and messages to make this New Year unforgettable!'
 readTime: 4
 ---
