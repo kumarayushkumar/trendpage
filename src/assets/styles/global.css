@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-1: #fbf6f0;
+    --bg-2: #f7e9d4;
+    --bg-3: #fdfcfb;
+    --bg-4: #505150;
+    --bg-5: #323233;
+
+    --white-0: #ffffff;
+    --white-1: #f8f6f9;
+
+    --orange-1: 40 99 52; /* #FEAD0B */
+    --orange-2: 33 99 52; /* #FE910B */
+
+    --black-0: 0 0 0;
+    --black-1: 0 0 7;
+    --black-2: 240 4 16;
+
+    --bg-1: #fbf6f0;
+    --bg-2: #f7e9d4;
+    --bg-3: #fdfcfb;
+    --bg-4: #505150;
+    --bg-5: #323233;
+
+    --grey-1: 0 0 80;
+    --grey-2: #999999;
+    --grey-3: #666666;
+    --grey-4: #272727;
+
+    --green: 103 55 50; /* #61C639 */
+    --red-1: 352 85 42; /* #C61028 */
+    --red-2: #ff5848;
+
+    --disabled: 42 75 50;
+  }
+}
