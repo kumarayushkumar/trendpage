@@ -1,0 +1,28 @@
+---
+export const prerender = false
+
+import Layout from '../../layouts/Layout.astro'
+import { getBlogById } from '../../services/blog'
+import BlogPost from '../../components/blog/Blog.astro'
+import { stripString } from '../../utils/parse-html'
+import Cta from '../../components/shared/Cta.astro'
+
+const { blogId } = Astro.params
+
+if (!blogId) {
+  return Astro.redirect('/blogs')
+}
+
+const { data, error } = await getBlogById(blogId as string)
+
+if (error) {
+  return Astro.redirect('/blogs')
+}
+---
+
+<Layout
+  title={data?.title.rendered as string}
+  description={stripString(data?.excerpt.rendered ?? '') as string}>
+  {data && <BlogPost blog={data} />}
+  <Cta />
+</Layout>
