@@ -1,15 +1,14 @@
 ---
-import Footer from '../components/Footer.astro'
-import Header from '../components/Header.astro'
-import Analytics from '@vercel/analytics/astro'
-import SpeedInsights from '@vercel/speed-insights/astro'
+import Footer from '../components/shared/Footer.astro'
+import Header from '../components/shared/Header.astro'
 
 interface Props {
   title: string
   description: string
+  keywords: string
 }
 
-const { title, description } = Astro.props
+const { title, description, keywords } = Astro.props
 ---
 
 <!doctype html>
@@ -22,10 +21,11 @@ const { title, description } = Astro.props
     <meta name="author" content="Trendpage" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=5"
+      content="width=device-width,initial-scale=1.0,maximum-scale=5.0"
     />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#000000" />
+    <meta name="keywords" content={keywords} />
 
     <!-- Open Graph (OG) Meta Tags -->
     <meta property="og:locale" content="en" />
@@ -33,19 +33,25 @@ const { title, description } = Astro.props
     <meta property="og:title" content={title} />
     <meta property="og:type" content="website" />
     <meta property="og:image:alt" content="Logo of Trendpage" />
+
     <meta property="og:image" content="https://trendpage.com/logo.png" />
     <meta property="og:url" content="https://trendpage.com" />
     <meta property="og:description" content={description} />
 
     <!-- Twitter Card Meta Tag -->
     <meta name="twitter:card" content="summary_large_image" />
+    <!-- <meta name="twitter:site" content="@trenpage" /> -->
+    <!-- <meta name="twitter:creator" content="@wearegrowigh" /> -->
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <!--  Minimum 1024x512 px -->
+    <meta name="twitter:image" content="https://trendpage.live/logo.png" />
 
     <!-- Apple Meta Tags -->
     <meta name="apple-mobile-web-app-title" content="Trendpage" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
-    <link rel="icon" type="image/png" href="/logo.png" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -53,14 +59,12 @@ const { title, description } = Astro.props
 
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <link rel="canonical" href="https://trendpage.com" />
+    <link rel="canonical" href="https://trendpage.live" />
   </head>
 
   <body class="min-h-screen bg-primary">
     <Header />
     <slot />
     <Footer />
-    <Analytics />
-    <SpeedInsights />
   </body>
 </html>

@@ -2,16 +2,6 @@
 import { getCollection } from 'astro:content'
 import Layout from '../layouts/Layout.astro'
 import BlogList from '../components/BlogList.astro'
-import Heading from '../components/Heading.astro'
-
-const blogs = await getCollection('blogs')
-
-// Sort blogs in descending order of date
-blogs.sort((a, b) => {
-  const dateA = new Date(a.data.date)
-  const dateB = new Date(b.data.date)
-  return dateB.getTime() - dateA.getTime()
-})
 
 const title = "TrendPage: Today's Trending News"
 const description =
@@ -19,13 +9,7 @@ const description =
 ---
 
 <Layout title={title} description={description}>
-  <section
-    class="mx-auto max-w-[520px] py-7 px-4 sm:px-6 min-h-[calc(100vh-116px)]">
-    <Heading type="h2" className="font-medium mb-3 md:mb-5 px-4"
-      >Trending News</Heading
-    >
-    <BlogList blogs={blogs} />
-  </section>
+  <BlogList blogs={blogs} />
 </Layout>
 
 <style>

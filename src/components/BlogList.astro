@@ -1,14 +1,13 @@
 ---
-import type { CollectionEntry } from 'astro:content'
-import Blog from './Blog.astro'
+import type { Blog } from '../utils/types'
 
 type Props = {
-  blogs: CollectionEntry<'blogs'>[]
+  blogs: Blog[]
 }
 
 const { blogs } = Astro.props
 ---
 
-<div class="grid grid-cols-1 gap-6 md:gap-8">
-  {blogs.map(blog => <Blog slug={blog.slug} blog={blog} />)}
-</div>
+<section class="">
+  <div></div>
+</section>
