@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content'
+import '../assets/styles/global.css'
 import Layout from '../layouts/Layout.astro'
 import BlogList from '../components/BlogList.astro'
 
@@ -8,24 +8,6 @@ const description =
   'Read the latest trending topics and useful blogs. Stay informed with easy-to-read content on Trendpage.'
 ---
 
-<Layout title={title} description={description}>
-  <BlogList blogs={blogs} />
+<Layout title={title} description={description} keywords="trending, news, blog">
+  test
 </Layout>
-
-<style>
-  @font-face {
-    font-family: 'Helvetica';
-    src: url('/fonts/Helvetica.woff2') format('woff2');
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'Georgia';
-    src: url('/fonts/Georgia.woff2') format('woff2');
-    font-display: swap;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-</style>

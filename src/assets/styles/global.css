@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --green: #00ff00;
-    --white: #ffffff;
+    --green: 153 100 12;
+    --white: 0 0 97;
   }
 }

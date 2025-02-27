@@ -62,9 +62,32 @@ const { title, description, keywords } = Astro.props
     <link rel="canonical" href="https://trendpage.live" />
   </head>
 
-  <body class="min-h-screen bg-primary">
+  <body class="min-h-screen bg-white text-black">
     <Header />
     <slot />
     <Footer />
   </body>
 </html>
+
+<style>
+  @font-face {
+    font-family: 'Galano';
+    src: url('/fonts/Galano.woff2') format('woff2');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica.woff2') format('woff2');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Georgia';
+    src: url('/fonts/Georgia.woff2') format('woff2');
+    font-display: swap;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+</style>

@@ -5,14 +5,14 @@ export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     fontFamily: {
+      logo: ['Galano', ...defaultTheme.fontFamily.serif],
       sans: ['Helvetica', ...defaultTheme.fontFamily.sans],
-      heading: ['Georgia', ...defaultTheme.fontFamily.serif]
+      highlight: ['Georgia', ...defaultTheme.fontFamily.serif]
     },
     extend: {
       colors: {
-        primary: '#fefefa',
-        secondary: '#001219',
-        accent: '#bb1102'
+        green: 'hsl(var(--green))',
+        white: 'hsl(var(--white))',
       }
     }
   },
